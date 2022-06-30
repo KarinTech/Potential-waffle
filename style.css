@@ -8,17 +8,13 @@ body {
     flex-direction: row;
 }
 
-.nav ul a {
-    display: flex;
+.nav ul li {
+    display: inline-block;
     flex-direction: row;
-    list-style: none;
     color: black;
     padding: 5px;
     text-decoration: none;
-    justify-content: right;
-
-
-
+    list-style: none;
 }
 
 .nav a:hover {
